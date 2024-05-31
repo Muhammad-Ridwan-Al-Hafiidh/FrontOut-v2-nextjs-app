@@ -87,6 +87,7 @@ export default function EditPage({
               src={publicId}
               width="1200"
               height="1400"
+              effects={[{ effect: "blur", value: 800 }]}
               alt="some image"
             />
           )}
@@ -96,6 +97,7 @@ export default function EditPage({
               src={publicId}
               width="1200"
               height="1400"
+              effects={[{ effect: "grayscale"}]}
               alt="some image"
             />
           )}
@@ -105,6 +107,7 @@ export default function EditPage({
               src={publicId}
               width="1200"
               height="1400"
+              effects={[{ effect: "pixelate"}]}
               alt="some image"
             />
           )}
@@ -114,7 +117,7 @@ export default function EditPage({
               src={publicId}
               width="1200"
               height="700"
-              removeBackground
+              effects={[{ effect: "removeBackground"}]}
               alt="some image"
             />
           )}

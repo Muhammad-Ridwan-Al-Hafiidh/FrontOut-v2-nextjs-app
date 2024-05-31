@@ -26,7 +26,7 @@ async function SideMenu() {
       <div className="space-y-4 py-4">
         <div className="px-3 py-2">
           <h2 className="mb-2 px-4 text-lg font-semibold tracking-tight">
-            Manage
+           Pengaturan
           </h2>
           <div className="space-y-1">
             <Button
@@ -113,14 +113,9 @@ export default function RootLayout({
     <html lang="en" className="dark">
       <body className={inter.className}>
         <div className="border-b">
-          <div className="flex h-16 items-center px-4 container mx-auto">
-            <Image
-              src="/album.png"
-              width="50"
-              height="50"
-              alt="icon of this photo album app"
-            />
-            WebDevCody Photos
+          <div className="flex h-16 items-center px-10 container mx-auto font-bold text-[40px]">            
+            Front
+            <span className="text-blue-500">Out</span>
             <div className="ml-auto flex items-center space-x-4">
               <Avatar>
                 <AvatarImage
