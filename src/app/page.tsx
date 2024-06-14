@@ -16,6 +16,10 @@ export default function Home() {
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
+      <img src="" alt="" />
+      <div>
+        halo
+      </div>
       <CldUploadButton
         onUpload={(result: UploadResult) => {
           setImageId(result.info.public_id);
